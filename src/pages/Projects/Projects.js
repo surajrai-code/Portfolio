@@ -6,44 +6,38 @@ const Projects = () => {
     <>
       <div className="continer project" id="projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          PROJECTS
+          TOP PROJECTS
         </h2>
         <hr />
-        <p className="pb-3 text-center">
-         
-        </p>
+        <p className="pb-3 text-center"></p>
         <div className="row" id="ads">
           <Spin>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Front-End</span>
+                  <span className="card-notify-badge">Full Stack</span>
                   <img
-                    src="https://unctad.org/sites/default/files/2021-03/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg"
+                    src="https://herobot.app/wp-content/uploads/2022/11/11-Reasons-Why-A-Chat-Application-Is-Great-For-Business_1.jpg"
                     alt="project1"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Context Api</span>
-                  <span className="card-detail-badge">react-router</span>
-                  <span className="card-detail-badge">react</span>
+                  <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">Node</span>
+                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">mongoDB</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">
-                      Ecommerce Website
-                    </h6>
+                    <h6 className="text-uppercase">Chat-App</h6>
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/surajrai-code/ecommerce-website"
+                    href="https://github.com/surajrai-code/full-Stack-Chat-App"
                   >
                     Source Code
                   </a>
-                  <a
-                    className="ad-btn"
-                    href="https://ecommerce-ecb5d.web.app/"
-                  >
+                  <a className="ad-btn" href="https://full-stack-chat-app-pink.vercel.app/">
                     Live Code
                   </a>
                 </div>
@@ -52,7 +46,7 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Front-End</span>
+                  <span className="card-notify-badge">Full Stack</span>
                   <img
                     src="https://th.bing.com/th/id/OIP.iCK9edOOuJp19JPwLAWT3AAAAA?pid=ImgDet&rs=1"
                     alt="project2"
@@ -60,9 +54,10 @@ const Projects = () => {
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">React</span>
+                  <span className="card-detail-badge">Node</span>
 
-                  <span className="card-detail-badge">React-router</span>
-                  <span className="card-detail-badge">Redux</span>
+                  <span className="card-detail-badge">Express</span>
+                  <span className="card-detail-badge">mongoDB</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -70,13 +65,13 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/surajrai-code/expanse-tracker"
+                    href="https://github.com/surajrai-code/fullstack-expense"
                   >
                     Source Code
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://expance-tracker-2795d.web.app"
+                    href="https://fullstack-expense-wheat.vercel.app/"
                   >
                     Live Code
                   </a>
@@ -108,10 +103,7 @@ const Projects = () => {
                   >
                     Source Code
                   </a>
-                  <a
-                    className="ad-btn"
-                    href="https://restront-60b99.web.app"
-                  >
+                  <a className="ad-btn" href="https://restront-60b99.web.app">
                     Live Code
                   </a>
                 </div>

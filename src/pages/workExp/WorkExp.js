@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./WorkExp.css";
+
 const WorkExp = () => {
   return (
     <>
@@ -22,7 +23,7 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="10/2022 - 06/2023"
+              date="8/2022 - 02/2023"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
@@ -33,8 +34,37 @@ const WorkExp = () => {
                 Sharpener Tech
               </h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management
+                Assisted senior web developers in the design and development of
+                websites using HTML, CSS, JavaScript, React, Node.js, Express.js
+                and MongoDB.
+              </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="3/2023 - 03/2024"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Full Stack Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">Webreate</h4>
+              <p>
+                Designed and developed dynamic and responsive websites using{" "}
+                <strong>React, Node.js, Express.js, and MongoDB</strong>.
+              </p>
+              <p>
+                Worked with <strong>REST APIs</strong> to retrieve and display
+                data from databases.
+              </p>
+              <p>
+                Improved <strong>website performance</strong> and speed through
+                optimization techniques by <strong>55%</strong>.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
