@@ -1,5 +1,5 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
-import { FaNodeJs,FaJava } from "react-icons/fa";
+import { FaNodeJs,FaJava,FaLinux,FaAws } from "react-icons/fa";
 import {
   SiJavascript,
   SiReact,
@@ -84,6 +84,16 @@ export const TechstackList = [
     _id:14,
     name:"Core Java",
     icon:FaJava,
+  },
+  {
+    _id:15,
+    name:"unix",
+    icon:FaLinux,
+  },
+  {
+    _id:16,
+    name:"AWS",
+    icon:FaAws,
   },
 
 
